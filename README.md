@@ -1,5 +1,7 @@
 # TIL
 
+---------------------------------
+
 ## Today I learned
 
 - language & version : python 3, & MySQL 5.6, 5.7
@@ -23,13 +25,17 @@ test test git
 </p>
 </details>
 
+---------------------------------
+
 ### numpy
 - [ ] [numpy-100](https://github.com/rougier/numpy-100)
 
+---------------------------------
 
 ### pandas
 - [ ] [pandas_exercises](https://github.com/guipsamora/pandas_exercises)
 
+---------------------------------
 
 ### python language
 - [ ] what's new? Test. Test.
