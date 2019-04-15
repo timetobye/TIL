@@ -18,6 +18,9 @@
 <p>
 전, 후방 탐색 이전까지 학습하였음, 학습 완료 할 경우 marking 하고 'strikethrough text' 할 것
 </p>
+<p>
+test test git
+</p>
 </details>
 
 ### numpy
