@@ -28,10 +28,9 @@
 <details>
 <summary>numpy-100 progress</summary>
 <p>
-```
 test1
+</p>
+<p>
 test2
-test3
-```
 </p>
 </details>
