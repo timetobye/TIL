@@ -1,8 +1,11 @@
 
-# Created by https://www.gitignore.io/api/macos,python,jupyternotebook
-# Edit at https://www.gitignore.io/?templates=macos,python,jupyternotebook
+# Created by https://www.gitignore.io/api/venv,macos,python,jupyternotebooks
+# Edit at https://www.gitignore.io/?templates=venv,macos,python,jupyternotebooks
 
-### JupyterNotebook ###
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
@@ -99,6 +102,7 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+db.sqlite3-journal
 
 # Flask stuff:
 instance/
@@ -125,7 +129,7 @@ ipython_config.py
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don’t work, or not
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
 #   install all needed dependencies.
 #Pipfile.lock
 
@@ -162,4 +166,16 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# End of https://www.gitignore.io/api/macos,python,jupyternotebook
+### venv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+pip-selfcheck.json
+
+# End of https://www.gitignore.io/api/venv,macos,python,jupyternotebooks

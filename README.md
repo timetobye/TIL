@@ -28,6 +28,12 @@ Today I learned(TIL)
 - [정규표현식 - 프로그래머스](https://programmers.co.kr/learn/courses/11)
 - [점프 투 파이썬 - 강력한 정규 표현식의 세계](https://wikidocs.net/4309)
 
+
+**파이썬 공식 문서 학습**
+찾고 나서 공부를 하고 기록을 하자!
+- [ ] 항목
+
+
 **중급 파이썬 스터디**
 - contributor 로 참여했던 [interpy-kr](https://github.com/KaggleBreak/interpy-kr) 복습을 합니다.
 
@@ -102,3 +108,4 @@ pandas 100문제를 풀면서 pandas의 여러 기능들을 익혀봅니다.
 ## 다짐
 - 매일매일하기 힘들지라도 스스로한테 꾸준했다라고 할 수 있을정도로 열심히 하자.
 - 작은 것도 매일 쌓도록 하자. 딴짓하는 시간 10분만 줄여도 코드 한 줄 더 짤 수 있다.
+- 혼자 하는게 쉽지 않다...함께 길을 걸어갈 동료가 필요해...ㅠ
