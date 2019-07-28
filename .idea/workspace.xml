@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b1ddbf9-b8b3-46f0-b352-26fae740bbe6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph_drawing_practice/pypthon_datascience_handbook_matplotlib/Multiple_Subplots.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/graph_drawing_practice/pypthon_datascience_handbook_matplotlib/Multiple_Subplots.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pandas study/pandas_exercises/04_Apply/Students_Alcohol_Consumption/Exercises.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pandas study/pandas_exercises/04_Apply/Students_Alcohol_Consumption/Exercises.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_intermediate_study/day_2/Generator.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_intermediate_study/day_2/Generator.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_intermediate_study/logging/17_logging.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_intermediate_study/logging/17_logging.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,12 +20,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="1032" />
+          <entry key="md" value="1228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1032" />
+          <entry key="Markdown" value="1228" />
         </counts>
       </usages-collector>
     </session>
@@ -40,8 +36,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="451">
-                <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+              <first_editor relative-caret-position="523">
+                <caret line="88" column="94" selection-start-line="88" selection-start-column="94" selection-end-line="88" selection-end-column="94" />
               </first_editor>
               <second_editor />
             </state>
@@ -128,13 +124,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23030822" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23030822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32932693" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -160,8 +156,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="451">
-            <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <first_editor relative-caret-position="523">
+            <caret line="88" column="94" selection-start-line="88" selection-start-column="94" selection-end-line="88" selection-end-column="94" />
           </first_editor>
           <second_editor />
         </state>

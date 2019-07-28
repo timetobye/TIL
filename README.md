@@ -19,6 +19,7 @@ Today I learned(TIL)
 바쁜 일상에서 매일 올리기 어렵더라도 꾸준히 올린다면 미래의 나에게 분명 도움이 될 거라 생각합니다.
 늦게 시작한 건 어쩔 수 없지만, 앞으로 꾸준히 하는 건 어쩔 수 있다!!
 
+---------------------------------
 
 ## Python
 
@@ -30,9 +31,8 @@ Today I learned(TIL)
 **중급 파이썬 스터디**
 - contributor 로 참여했던 [interpy-kr](https://github.com/KaggleBreak/interpy-kr) 복습을 합니다.
 
-<details>
-<summary>Inter-kr 복습 체크</summary>
-<p>
+Inter-kr 복습 체크
+
 |요일   |주제   |발표자   |발표자료   |비고|
 |---|---|---|---|---|
 |2019.04.13(토)|args와 kwargs|홍수린|[발표자료](https://nbviewer.jupyter.org/github/KaggleBreak/interpy-kr/blob/master/day1/1_args.ipynb)||
@@ -71,21 +71,24 @@ Today I learned(TIL)
 ||파이썬 2+3 호환|홍만수|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day7/py_compatibility.ipynb)|
 ||pip 패키지 매니저|천성필|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day7/pip_package_manager.ipynb)|
 ||파이썬 디자인 패턴|홍수린|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day7/design%20patterns.ipynb)|
-</p>
-</details>
 
 ### numpy - 100
 numpy 100문제를 풀면서 numpy의 여러 기능들을 익혀봅니다.
-- [ ] [numpy-100](https://github.com/rougier/numpy-100)
+- [numpy-100](https://github.com/rougier/numpy-100)
+  - [ ] 학습 내용 with link
 
 ### pandas - 100
 pandas 100문제를 풀면서 pandas의 여러 기능들을 익혀봅니다.
-- [ ] [pandas_exercises](https://github.com/guipsamora/pandas_exercises)
-
+- [pandas_exercises](https://github.com/guipsamora/pandas_exercises)
+  - [ ] 학습 내용 with link
 
 -------------------------------------------------
+
 ## MySQL
 - [MySQL_basic_practice](https://github.com/timetobye/MySQL_basic_practice)에 정리하면 TIL에 날짜와 내용만 간략히 적습니다.
+  - [ ] 날짜, [subquery - derived-table](http://www.mysqltutorial.org/mysql-derived-table/)
+
+-------------------------------------------------
 
 ## Research & Video
 공부나 일을 하다보면 찾게 되는 좋은 자료들을 링크합니다. 다른 분들이 일궈놓으신 자료에서 얻는 영감과 공부도 큰 도움이 됩니다.
@@ -94,3 +97,8 @@ pandas 100문제를 풀면서 pandas의 여러 기능들을 익혀봅니다.
 |확인 날짜|제목|내용 정리|생각|비고|
 |---|---|---|---|---|
 |2019-07-28|[양승화 – 데이터가 흐르는 조직 만들기](http://devground.hanbit.co.kr/2019/06/27/ai%EC%99%80-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%BC%ED%95%99-%EC%96%91%EC%8A%B9%ED%99%94-%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%ED%9D%90%EB%A5%B4%EB%8A%94-%EC%A1%B0%EC%A7%81-%EB%A7%8C%EB%93%A4/)|데이터 기반 업무|어떻게 하면 좋은 질문을 할 수 있을까?| |
+
+
+## 다짐
+- 매일매일하기 힘들지라도 스스로한테 꾸준했다라고 할 수 있을정도로 열심히 하자.
+- 작은 것도 매일 쌓도록 하자. 딴짓하는 시간 10분만 줄여도 코드 한 줄 더 짤 수 있다.
