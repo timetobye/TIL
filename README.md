@@ -92,7 +92,7 @@ pandas 100문제를 풀면서 pandas의 여러 기능들을 익혀봅니다.
 
 ## MySQL
 - [MySQL_basic_practice](https://github.com/timetobye/MySQL_basic_practice)에 정리하면 TIL에 날짜와 내용만 간략히 적습니다.
-  - [ ] 날짜, [subquery - derived-table](http://www.mysqltutorial.org/mysql-derived-table/)
+  - [x] 2019-08-14, [subquery - derived-table](http://www.mysqltutorial.org/mysql-derived-table/)
 
 -------------------------------------------------
 
