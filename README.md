@@ -104,6 +104,7 @@ pandas 100문제를 풀면서 pandas의 여러 기능들을 익혀봅니다.
 |---|---|---|---|---|
 |2019-07-28|[양승화 – 데이터가 흐르는 조직 만들기](http://devground.hanbit.co.kr/2019/06/27/ai%EC%99%80-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%BC%ED%95%99-%EC%96%91%EC%8A%B9%ED%99%94-%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%ED%9D%90%EB%A5%B4%EB%8A%94-%EC%A1%B0%EC%A7%81-%EB%A7%8C%EB%93%A4/)|데이터 기반 업무|어떻게 하면 좋은 질문을 할 수 있을까?| |
 |2019-08-03|[readme-template](https://github.com/sujinleeme/readme-template/tree/master/korean)|README template 쓰는 법|글을 잘 쓰는 개발자가 개발도 잘 한다.^^;| |
+|2019-08-14|[데이터 품질에 관한 5개 체크포인트](https://d2.naver.com/helloworld/1179024?fbclid=IwAR2rSvstpGpU0Ig0X5yEHkVV6ii0AnybCToPwX3HfEdJ_0VvvW6bwYJm540)|데이터 기반 업무|데이터 품질은 기본에 충실해야 나옴| |
 
 
 ## 다짐
