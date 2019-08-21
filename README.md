@@ -92,7 +92,8 @@ pandas 100문제를 풀면서 pandas의 여러 기능들을 익혀봅니다.
 
 ## MySQL
 - [MySQL_basic_practice](https://github.com/timetobye/MySQL_basic_practice)에 정리하면 TIL에 날짜와 내용만 간략히 적습니다.
-  - [x] 2019-08-14, [subquery - derived-table](http://www.mysqltutorial.org/mysql-derived-table/)
+  - [x] 2019-08-14, subquery - derived-table
+  - [x] 2019-08-13 ~ 2019-08-19, Date function 위주로   
 
 -------------------------------------------------
 
@@ -105,7 +106,7 @@ pandas 100문제를 풀면서 pandas의 여러 기능들을 익혀봅니다.
 |2019-07-28|[양승화 – 데이터가 흐르는 조직 만들기](http://devground.hanbit.co.kr/2019/06/27/ai%EC%99%80-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%BC%ED%95%99-%EC%96%91%EC%8A%B9%ED%99%94-%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%ED%9D%90%EB%A5%B4%EB%8A%94-%EC%A1%B0%EC%A7%81-%EB%A7%8C%EB%93%A4/)|데이터 기반 업무|어떻게 하면 좋은 질문을 할 수 있을까?| |
 |2019-08-03|[readme-template](https://github.com/sujinleeme/readme-template/tree/master/korean)|README template 쓰는 법|글을 잘 쓰는 개발자가 개발도 잘 한다.^^;| |
 |2019-08-14|[데이터 품질에 관한 5개 체크포인트](https://d2.naver.com/helloworld/1179024?fbclid=IwAR2rSvstpGpU0Ig0X5yEHkVV6ii0AnybCToPwX3HfEdJ_0VvvW6bwYJm540)|데이터 기반 업무|데이터 품질은 기본에 충실해야 나옴| |
-
+|2019-08-21|[2018 ICML을 통해 살펴보는 AI 연구 동향](https://brunch.co.kr/@kakao-it/296)|AI 연구 동향|이제는 머신러닝, 딥러닝 열심히 하자..| |
 
 ## 다짐
 - 매일매일하기 힘들지라도 스스로한테 꾸준했다라고 할 수 있을정도로 열심히 하자.
