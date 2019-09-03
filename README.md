@@ -39,12 +39,12 @@ Today I learned(TIL)
 
 Inter-kr 복습 체크
 
-|요일   |주제   |발표자   |발표자료   |비고|
+|요일   |주제   |발표자   |발표자료   |학습 완료|
 |---|---|---|---|---|
-|2019.04.13(토)|args와 kwargs|홍수린|[발표자료](https://nbviewer.jupyter.org/github/KaggleBreak/interpy-kr/blob/master/day1/1_args.ipynb)||
-||first class function|홍수린|[발표자료](https://nbviewer.jupyter.org/github/KaggleBreak/interpy-kr/blob/master/day1/2_firstclass_function.ipynb)|
-|2019.04.27(토)|데코레이터|홍수린|[발표자료](https://nbviewer.jupyter.org/github/KaggleBreak/interpy-kr/blob/master/day2/3_decorator.ipynb)||
-||제너레이터|정한웅|[발표자료](https://nbviewer.jupyter.org/github/KaggleBreak/interpy-kr/blob/master/day2/4_Generator.ipynb)|
+|2019.04.13(토)|args와 kwargs|홍수린|[발표자료](https://nbviewer.jupyter.org/github/KaggleBreak/interpy-kr/blob/master/day1/1_args.ipynb)|O|
+||first class function|홍수린|[발표자료](https://nbviewer.jupyter.org/github/KaggleBreak/interpy-kr/blob/master/day1/2_firstclass_function.ipynb)|O|
+|2019.04.27(토)|데코레이터|홍수린|[발표자료](https://nbviewer.jupyter.org/github/KaggleBreak/interpy-kr/blob/master/day2/3_decorator.ipynb)|O|
+||제너레이터|정한웅|[발표자료](https://nbviewer.jupyter.org/github/KaggleBreak/interpy-kr/blob/master/day2/4_Generator.ipynb)|O|
 ||set자료구조|천성필|[발표자료](https://nbviewer.jupyter.org/github/KaggleBreak/interpy-kr/blob/master/day2/5_set.ipynb)|
 ||변형(Mutation)|유동건|[발표자료](https://nbviewer.jupyter.org/github/KaggleBreak/interpy-kr/blob/master/day2/6_mutation.ipynb)|
 ||객체 탐구|박원상|[발표자료]()|
