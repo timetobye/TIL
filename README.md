@@ -53,8 +53,8 @@ Inter-kr 복습 체크
 ||람다|이상열|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/10_lambda_functions.ipynb)|O|
 ||컴프리헨션(comprehension)|김지미|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/11_Comprehension.ipynb)|O|
 ||For-else|김지미|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/12_For-else.ipynb)|O|
-||콜렉션(collections)|정한웅|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/13_collections.ipynb)|
-||__slots__ 마법|유동건|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/14___slots__.ipynb)|
+||콜렉션(collections)|정한웅|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/13_collections.ipynb)|O|
+||__slots__ 마법|유동건|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/14___slots__.ipynb)|O|
 |2019.05.25(토)|파이썬에서의 garbage collection(gc)|유동건|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day4/garbage%20collection.ipynb)||
 ||디버깅|유홍렬|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day4/15_debugging.ipynb)|
 ||unittest|유홍렬|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day4/15_unittest.ipynb)|
