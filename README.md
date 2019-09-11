@@ -49,7 +49,7 @@ Inter-kr 복습 체크
 ||변형(Mutation)|유동건|[발표자료](https://nbviewer.jupyter.org/github/KaggleBreak/interpy-kr/blob/master/day2/6_mutation.ipynb)|O|
 ||객체 탐구|박원상|[발표자료]()|
 ||전역변수 & 반환|박원상|[발표자료](https://nbviewer.jupyter.org/github/KaggleBreak/interpy-kr/blob/master/day2/8_scope/8_scope.ipynb)|
-|2019.05.11(토)|삼항연산자|홍만수|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/09_ternary_op.ipynb)||O|
+|2019.05.11(토)|삼항연산자|홍만수|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/09_ternary_op.ipynb)|O|
 ||람다|이상열|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/10_lambda_functions.ipynb)|O|
 ||컴프리헨션(comprehension)|김지미|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/11_Comprehension.ipynb)|O|
 ||For-else|김지미|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/12_For-else.ipynb)|O|
