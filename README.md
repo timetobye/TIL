@@ -55,7 +55,7 @@ Inter-kr 복습 체크
 ||For-else|김지미|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/12_For-else.ipynb)|O|
 ||콜렉션(collections)|정한웅|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/13_collections.ipynb)|O|
 ||__slots__ 마법|유동건|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/14___slots__.ipynb)|O|
-|2019.05.25(토)|파이썬에서의 garbage collection(gc)|유동건|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day4/garbage%20collection.ipynb)||
+|2019.05.25(토)|파이썬에서의 garbage collection(gc)|유동건|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day4/garbage%20collection.ipynb)|O|
 ||디버깅|유홍렬|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day4/15_debugging.ipynb)|
 ||unittest|유홍렬|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day4/15_unittest.ipynb)|
 ||가상환경|유홍렬|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day4/16_virtualenv.ipynb)|
@@ -107,6 +107,7 @@ pandas 100문제를 풀면서 pandas의 여러 기능들을 익혀봅니다.
 |2019-08-03|[readme-template](https://github.com/sujinleeme/readme-template/tree/master/korean)|README template 쓰는 법|글을 잘 쓰는 개발자가 개발도 잘 한다.^^;| |
 |2019-08-14|[데이터 품질에 관한 5개 체크포인트](https://d2.naver.com/helloworld/1179024?fbclid=IwAR2rSvstpGpU0Ig0X5yEHkVV6ii0AnybCToPwX3HfEdJ_0VvvW6bwYJm540)|데이터 기반 업무|데이터 품질은 기본에 충실해야 나옴| |
 |2019-08-21|[2018 ICML을 통해 살펴보는 AI 연구 동향](https://brunch.co.kr/@kakao-it/296)|AI 연구 동향|이제는 머신러닝, 딥러닝 열심히 하자..| |
+|2019-09-17|[수준급의 GITHUB README.MD 작성법](https://newhiwoong.github.io/%EA%B8%B0%ED%83%80%20%EC%A0%95%EB%B3%B4%20%EA%B3%B5%EC%9C%A0/%EC%88%98%EC%A4%80%EA%B8%89%EC%9D%98-Github-README.md-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0)|README 이쁘게 이쁘게 쓰기||
 
 ## 다짐
 - 매일매일하기 힘들지라도 스스로한테 꾸준했다라고 할 수 있을정도로 열심히 하자.
