@@ -23,6 +23,8 @@ Today I learned(TIL)
 
 ## Python
 
+- [ ] To - do : 폴더 
+
 ### 언어
 **정규 표현식**
 - [정규표현식 - 프로그래머스](https://programmers.co.kr/learn/courses/11)
@@ -81,19 +83,16 @@ Inter-kr 복습 체크
 ### numpy - 100
 numpy 100문제를 풀면서 numpy의 여러 기능들을 익혀봅니다.
 - [numpy-100](https://github.com/rougier/numpy-100)
-  - [ ] 학습 내용 with link
 
 ### pandas - 100
 pandas 100문제를 풀면서 pandas의 여러 기능들을 익혀봅니다.
 - [pandas_exercises](https://github.com/guipsamora/pandas_exercises)
-  - [ ] 학습 내용 with link
 
 -------------------------------------------------
 
 ## MySQL
-- [MySQL_basic_practice](https://github.com/timetobye/MySQL_basic_practice)에 정리하면 TIL에 날짜와 내용만 간략히 적습니다.
-  - [x] 2019-08-14, subquery - derived-table
-  - [x] 2019-08-13 ~ 2019-08-19, Date function 위주로   
+- [MySQL_basic_practice](https://github.com/timetobye/MySQL_basic_practice)
+  - To-do list : https://www.w3resource.com/mysql-exercises/ 의 Datetime, string function 문제
 
 -------------------------------------------------
 
@@ -108,6 +107,9 @@ pandas 100문제를 풀면서 pandas의 여러 기능들을 익혀봅니다.
 |2019-08-14|[데이터 품질에 관한 5개 체크포인트](https://d2.naver.com/helloworld/1179024?fbclid=IwAR2rSvstpGpU0Ig0X5yEHkVV6ii0AnybCToPwX3HfEdJ_0VvvW6bwYJm540)|데이터 기반 업무|데이터 품질은 기본에 충실해야 나옴| |
 |2019-08-21|[2018 ICML을 통해 살펴보는 AI 연구 동향](https://brunch.co.kr/@kakao-it/296)|AI 연구 동향|이제는 머신러닝, 딥러닝 열심히 하자..| |
 |2019-09-17|[수준급의 GITHUB README.MD 작성법](https://newhiwoong.github.io/%EA%B8%B0%ED%83%80%20%EC%A0%95%EB%B3%B4%20%EA%B3%B5%EC%9C%A0/%EC%88%98%EC%A4%80%EA%B8%89%EC%9D%98-Github-README.md-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0)|README 이쁘게 이쁘게 쓰기||
+|2019-09-24|[Github로 취업하기](https://sujinlee.me/professional-github/)|Github는 정말 중요하구나|내 git도 잘 관리하자..|
+
+
 
 ## 다짐
 - 매일매일하기 힘들지라도 스스로한테 꾸준했다라고 할 수 있을정도로 열심히 하자.
