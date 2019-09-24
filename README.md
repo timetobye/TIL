@@ -23,7 +23,8 @@ Today I learned(TIL)
 
 ## Python
 
-- [ ] To - do : 폴더 
+- [ ] To - do : 폴더 정리하기
+
 
 ### 언어
 **정규 표현식**
