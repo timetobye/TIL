@@ -60,7 +60,7 @@ Inter-kr 복습 체크
 ||__slots__ 마법|유동건|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/14___slots__.ipynb)|O|
 |2019.05.25(토)|파이썬에서의 garbage collection(gc)|유동건|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day4/garbage%20collection.ipynb)|O|
 ||디버깅|유홍렬|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day4/15_debugging.ipynb)|
-||unittest|유홍렬|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day4/15_unittest.ipynb)|
+||unittest|유홍렬|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day4/15_unittest.ipynb)|O|
 ||가상환경|유홍렬|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day4/16_virtualenv.ipynb)|
 ||열거(enumerate)|정한웅|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day3/13_enumerate.ipynb)|
 ||logging|황원택|[발표자료](https://github.com/KaggleBreak/interpy-kr/blob/master/day4/17_logging.ipynb)|
@@ -88,6 +88,17 @@ numpy 100문제를 풀면서 numpy의 여러 기능들을 익혀봅니다.
 ### pandas - 100
 pandas 100문제를 풀면서 pandas의 여러 기능들을 익혀봅니다.
 - [pandas_exercises](https://github.com/guipsamora/pandas_exercises)
+  - [x] 01_Getting_&_Knowing_Your_Data
+  - [x] 02_Filtering_&_Sorting
+  - [x] 03_Grouping
+  - [x] 04_Apply
+  - [x] 05_Merge
+  - [x] 06_Stats
+  - [x] 07_Visualization
+  - [ ] 08_Creating_Series_and_DataFrames
+  - [ ] 09_Time_Series
+  - [ ] 10_Deleting
+  - [ ] 11_Indexing
 
 -------------------------------------------------
 
