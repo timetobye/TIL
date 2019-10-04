@@ -120,6 +120,8 @@ pandas 100문제를 풀면서 pandas의 여러 기능들을 익혀봅니다.
 |2019-08-21|[2018 ICML을 통해 살펴보는 AI 연구 동향](https://brunch.co.kr/@kakao-it/296)|AI 연구 동향|이제는 머신러닝, 딥러닝 열심히 하자..| |
 |2019-09-17|[수준급의 GITHUB README.MD 작성법](https://newhiwoong.github.io/%EA%B8%B0%ED%83%80%20%EC%A0%95%EB%B3%B4%20%EA%B3%B5%EC%9C%A0/%EC%88%98%EC%A4%80%EA%B8%89%EC%9D%98-Github-README.md-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0)|README 이쁘게 이쁘게 쓰기||
 |2019-09-24|[Github로 취업하기](https://sujinlee.me/professional-github/)|Github는 정말 중요하구나|내 git도 잘 관리하자..|
+|2019-10-04|[역량, 제대로 알고 쓰자](https://brunch.co.kr/@vigorous21/147)|역량, 그리고 직장에서 생존 역량에 대해서|역량이라는 말을 정확히 알고 미래를 준비하자||
+|2019-10-04|[우리가 부르는 시니어 개발자는 누구인가?](http://woowabros.github.io/woowabros/2017/07/03/senior.html)|시니어란 과연 무엇일까? 시니어가 주니어에게 미치는 영향은..?|정말로 시니어가 필요하다...나에겐!||
 
 
 
