@@ -9,3 +9,8 @@ This is a collection of numpy exercises from numpy mailing list, stack overflow,
 
 This work is licensed under the MIT license.  
 [![DOI](https://zenodo.org/badge/10173/rougier/numpy-100.svg)](https://zenodo.org/badge/latestdoi/10173/rougier/numpy-100)
+
+
+## numpy - 100
+numpy 100문제를 풀면서 numpy의 여러 기능들을 익혀봅니다.
+- [numpy-100](https://github.com/rougier/numpy-100)

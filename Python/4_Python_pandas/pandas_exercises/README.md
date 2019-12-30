@@ -13,6 +13,21 @@ Learn one more topic and do exercises. If you got the answer wrong, don't go dir
 
 Suggestions and collaborations are more than welcome. Please open an issue or make a PR. :)
 
+# pandas - 100 progress
+pandas 100문제를 풀면서 pandas의 여러 기능들을 익혀봅니다.
+- [pandas_exercises](https://github.com/guipsamora/pandas_exercises)
+  - [x] 01_Getting_&_Knowing_Your_Data
+  - [x] 02_Filtering_&_Sorting
+  - [x] 03_Grouping
+  - [x] 04_Apply
+  - [x] 05_Merge
+  - [x] 06_Stats
+  - [x] 07_Visualization
+  - [ ] 08_Creating_Series_and_DataFrames
+  - [ ] 09_Time_Series
+  - [ ] 10_Deleting
+  - [ ] 11_Indexing
+
 # Lessons
 
 |				                                  |				                                   |                   |
