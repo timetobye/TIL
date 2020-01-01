@@ -3,6 +3,8 @@ Today I learned(TIL)
 ![alt text](https://img.shields.io/badge/Laguage-Python3-red)
 ![alt text](https://img.shields.io/badge/Language-MySQL-green)
 
+# Notice
+- repository 전반에 걸쳐 재구성 및 작성 중 입니다.
 
 ## :open_book: Today I learned
 
@@ -19,6 +21,7 @@ Today I learned(TIL)
 - 혼자 하는게 쉽지 않다...함께 길을 걸어갈 동료가 필요해...ㅠ
 
 ## Contents Structure
+
 
 ```bash
 ├── MySQL
