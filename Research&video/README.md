@@ -13,3 +13,4 @@ Research & Video
 |2019-09-24|[Github로 취업하기](https://sujinlee.me/professional-github/)|Github는 정말 중요하구나|내 git도 잘 관리하자..|
 |2019-10-04|[역량, 제대로 알고 쓰자](https://brunch.co.kr/@vigorous21/147)|역량, 그리고 직장에서 생존 역량에 대해서|역량이라는 말을 정확히 알고 미래를 준비하자||
 |2019-10-04|[우리가 부르는 시니어 개발자는 누구인가?](http://woowabros.github.io/woowabros/2017/07/03/senior.html)|시니어란 과연 무엇일까? 시니어가 주니어에게 미치는 영향은..?|정말로 시니어가 필요하다...나에겐!||
+|2020-01-10|[A/B Testing Guide](https://vwo.com/ab-testing/)|A/B 테스트를 학습하기 위해 찾은 자료|좋은 것 같음...||
