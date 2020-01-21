@@ -15,3 +15,4 @@ Research & Video
 |2019-10-04|[우리가 부르는 시니어 개발자는 누구인가?](http://woowabros.github.io/woowabros/2017/07/03/senior.html)|시니어란 과연 무엇일까? 시니어가 주니어에게 미치는 영향은..?|정말로 시니어가 필요하다...나에겐!||
 |2020-01-10|[A/B Testing Guide](https://vwo.com/ab-testing/)|A/B 테스트를 학습하기 위해 찾은 자료|좋은 것 같음...||
 |2020-01-16|[Multi-Armed Recommender System Bandit Ensembles](http://ir.ii.uam.es/pubs/recsys2019-rcanamares-poster.pdf)|Multi-Armed Bandit Recommeder system에 대한 설명|자료를 전달 주신 분께 무한한 감사||
+|2020-01-21|[사용자에게 소식을 골라주는 PAIGE](https://blog.ncsoft.com/%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%EA%B3%BC-ai-7-%EC%82%AC%EC%9A%A9%EC%9E%90%EC%97%90%EA%B2%8C-%EC%86%8C%EC%8B%9D%EC%9D%84-%EA%B3%A8%EB%9D%BC%EC%A3%BC%EB%8A%94-paige/)|MAB를 보면서 찾은 자료이다.||
