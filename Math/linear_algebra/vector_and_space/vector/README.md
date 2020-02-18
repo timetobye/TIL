@@ -1,4 +1,7 @@
-Vector and Space - Vector
+Vector and Space
+----------------
+
+# Vector
 
 ## lecture
 - lecture url : https://ko.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra
