@@ -9,3 +9,5 @@ Vector and Space
 ## Note
 
 ![alt text](Linear_combinations_and_spans_1.jpg)
+![alt text](Linear_combinations_and_spans_2.jpg)
+![alt text](Linear_combinations_and_spans_3.jpg)
