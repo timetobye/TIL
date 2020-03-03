@@ -16,3 +16,8 @@ Research & Video
 |2020-01-10|[A/B Testing Guide](https://vwo.com/ab-testing/)|A/B 테스트를 학습하기 위해 찾은 자료|좋은 것 같음...||
 |2020-01-16|[Multi-Armed Recommender System Bandit Ensembles](http://ir.ii.uam.es/pubs/recsys2019-rcanamares-poster.pdf)|Multi-Armed Bandit Recommeder system에 대한 설명|자료를 전달 주신 분께 무한한 감사||
 |2020-01-21|[사용자에게 소식을 골라주는 PAIGE](https://blog.ncsoft.com/%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%EA%B3%BC-ai-7-%EC%82%AC%EC%9A%A9%EC%9E%90%EC%97%90%EA%B2%8C-%EC%86%8C%EC%8B%9D%EC%9D%84-%EA%B3%A8%EB%9D%BC%EC%A3%BC%EB%8A%94-paige/)|MAB를 보면서 찾은 자료이다.||
+|2020-03-03|[그래프에서 대시보드까지, 서비스를 위한 데이터 시각화](https://www.slideshare.net/lumiamitie/ss-105989689)|어떻게 하면 체계적으로 데이터를 시각화 할까||
+
+
+
+
