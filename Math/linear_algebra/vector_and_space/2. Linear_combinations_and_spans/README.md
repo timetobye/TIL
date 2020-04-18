@@ -17,6 +17,3 @@ lecture url
 ![alt text](Linear_combinations_and_spans_1.jpg)
 ![alt text](Linear_combinations_and_spans_2.jpg)
 ![alt text](Linear_combinations_and_spans_3.jpg)
-![alt text](Linear_combinations_and_spans_4.jpg)
-![alt text](Linear_combinations_and_spans_5.jpg)
-![alt text](Linear_combinations_and_spans_6.jpg)
