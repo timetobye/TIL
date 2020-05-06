@@ -19,6 +19,10 @@ Research & Video
 |2020-03-03|[그래프에서 대시보드까지, 서비스를 위한 데이터 시각화](https://www.slideshare.net/lumiamitie/ss-105989689)|어떻게 하면 체계적으로 데이터를 시각화 할까||
 |2020-03-19|[Ask Me Anything session with a Kaggle Grandmaster Vladimir I. Iglovikov](https://towardsdatascience.com/ask-me-anything-session-with-a-kaggle-grandmaster-vladimir-i-iglovikov-942ad6a06acd)|캐글 그랜드마스터의 위엄과 인터뷰|올해는 캐글을 하기로 했으니 정말 열심히 한 번 |
 |2020-03-26|[REST API 제대로 알고 사용하기](https://meetup.toast.com/posts/92)|REST API 제대로 알고 사용하기|공부하다가 찾아봄...설명을 너무 잘하셨다.|
+|2020-05-06|[Business metrics vs KPIs. What’s the difference?](https://www.klipfolio.com/blog/business-metrics-vs-kpis
+)|KPI와 metrics에 대해서 찾아봄|두 개의 개념이 비슷하면서도 어떤 차이가 있는지 몰라서 찾아보았다|
+
+
 
 
 
