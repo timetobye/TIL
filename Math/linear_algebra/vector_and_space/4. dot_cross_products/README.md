@@ -19,3 +19,5 @@ lecture url
 ![alt text](dot_cross_products_7.jpg)
 ![alt text](dot_cross_products_8.jpg)
 ![alt text](dot_cross_products_9.jpg)
+![alt text](dot_cross_products_10.jpg)
+![alt text](dot_cross_products_11.jpg)
