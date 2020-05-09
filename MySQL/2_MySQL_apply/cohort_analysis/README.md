@@ -5,6 +5,10 @@ Cohort analysis with MySQL
 MySQL을 이용하여 Cohort 분석에 사용할 쿼리와 retention rate 결과를 정리하기 위해 작성하였다.
 
 
+### Cohort analysis
+- https://clevertap.com/blog/cohort-analysis/
+
+
 ### 작업 환경
 - MySQL : [8.0(with docker)](https://hub.docker.com/_/mysql)
 - BI tool : [Metabase v0.34.3](https://www.metabase.com/)
@@ -159,7 +163,7 @@ from result
 ```
 
 
-### Wrap - up
+### 마무리
 인터넷에 나와있는 복잡한 방법들 대신에 기본적인 쿼리를 조합하여 만들어 보았습니다.
 
 MySQL 8.0에서 적용된다는 단점(8.0 미만의 버전에서는 windo function이 안 됩니다.)이 있지만 다른 DBMS의 경우 대부분 window function을 지원하기 떄문에 
