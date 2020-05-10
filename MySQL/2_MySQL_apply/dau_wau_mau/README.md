@@ -11,6 +11,9 @@ MySQL을 이용하여 DAU, WAU, MAU 를 구하기 위해 작성하였습니다.
 - WAU : Weekly Activity User, 7일 간 이용한 순수 이용자 수 
 - MAU : Monthly Activity User, 30일 간 이용한 순수 이용자 수
 
+stickiness 추가하였습니다.
+- stickiness : DAU / MAU, 서비스의 활성화 정도를 가늠하는데 좋은 지표가 된다.
+
 ### 작업 환경
 - MySQL : [8.0(with docker)](https://hub.docker.com/_/mysql)
 - BI tool : [Metabase v0.34.3](https://www.metabase.com/)
@@ -20,6 +23,9 @@ MySQL을 이용하여 DAU, WAU, MAU 를 구하기 위해 작성하였습니다.
 
 ### 작업 결과
 ![alt text](dau_wau_mau_20200510.png)
+
+stickiness 추가
+![alt text](dau_wau_mau_stickiness_20200510.png)
 
 ### 참고 페이지
 - https://discuss.redash.io/t/dau-wau-mau-query-example/1704
@@ -68,6 +74,55 @@ select
     ) as mau
 from dau;
 ```
+
+**stickiness** 추가 - 별도 설명은 하지 않음
+
+```sql
+with base_table as (
+        select
+            order_id,
+            date_add(Order_Date, interval '10:2' year_month) as new_order_date,
+            user_id,
+            Total_Charges,
+            common_id,
+            pup_id,
+            date_add(pickup_date, interval '10:2' year_month) as new_pickup_date
+        from log_table),
+    dau as (
+        select
+            date_format(new_order_date, '%Y-%m-%d') as date_time,
+            count(distinct user_id) as dau
+        from base_table
+        group by 1
+        having date_time > date_sub(curdate(), interval 30 day)
+        order by 1 asc),
+    active_result as (
+        select
+            date_time,
+            dau,
+            (
+                select
+                    count(distinct user_id)
+                from base_table
+                where base_table.new_order_date BETWEEN date_sub(dau.date_time, interval 7 day) and dau.date_time
+            ) as wau,
+            (
+                select
+                    count(distinct user_id)
+                from base_table
+                where base_table.new_order_date BETWEEN date_sub(dau.date_time, interval 30 day) and dau.date_time
+            ) as mau
+        from dau)
+        
+select
+    date_time,
+    dau,
+    wau,
+    mau,
+    (dau / mau) * 100.0 as stickness
+from active_result
+```
+
 
 ### 내용 정리
 기본적인 테이블 구성은 cohort 분석을 할 때와 동일 합니다.
