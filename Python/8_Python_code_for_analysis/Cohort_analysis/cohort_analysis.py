@@ -12,7 +12,7 @@ sns.set(style='white')
 
 # 파일 읽기
 def read_excel(file_path, sheet_name=None):
-    # change sheet name when you use your dataset
+    # change sheet name when you use your data_set
     df = pd.read_excel(file_path, sheet_name='Purchase Data - Full Study')
 
     return df
