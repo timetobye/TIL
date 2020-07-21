@@ -221,3 +221,88 @@ AWS Service
   - 정형 : 구조화 된 데이터
   - 반정형 : 형태(schema, Meta Data)가 있으며, 연산이 불가능한 데이터, XML, JSON 등) 
   - 비정형 : 형태가 없으며, 연산도 불가능한 데이
+  
+  
+  
+  
+  
+--------------
+--------------
+
+## 현대적 분석 아키텍처 구축
+
+여기서부터는 현대적 분석 아키텍처 구축 PDF 파일에서 필요한 부분을 발췌한 것
+
+### 데이터 레이크
+- 데이터 레이크는 중앙 집중식 리포지토리
+- 원하는 규모의 모든 정형 데이터와 비정형 데이터를 저장할 수 있다.
+- 데이터를 먼저 변환하거나 구조화할 필요 없이 데이터를 그대로 저장할 수 있다.
+- 대시보드, 시각화, 빅데이터 처리, 실시간 분석, 기계 학습을 비롯한 여러 가지 분석 도구를 실행 가능
+- 데이터 레이크 -> 데이터 웨어하우스로 ETL 가능
+
+일반적으로 데이터 레이크와 데이터 웨어하우스가 필요
+
+
+
+|특징|데이터 웨어하우스|데이터 레이크|
+|------|---|---|
+|데이터|트랜잭션 시스템, 데이터베이스 및 업무용 애플리케이션의 관계형 데이터|IOT 디바이스, 웹 사이트, 모바일 앱, 등 비관계형 데이터 및 관계형 데이터|
+|스키마|데이터 웨어하우스 구현 이전에 설계(쓰기 스키마)|분석 시 작성(읽기 스키마)|
+|가격/성능|고비용 스토리지를 사용한 가장 빠른 쿼리 결과|저비용 스토리지를 사용하고 빨라진 쿼리 결과|
+|데이터 품질|신뢰할 수 있는 중앙 집중식 버전 역할|큐레이트 여부와 관계 없는 데이터(raw data 등)|
+|사용자|비즈니스 분석가|All|
+|분석|배치 보고, BI 및 시각화|기계 학습, 예측 분석, 데이터 검색 및 프로파일링|
+
+
+schema on read vs schema on write
+- https://blog.dellemc.com/en-us/schema-read-vs-schema-write-started/
+- https://datacookbook.kr/90
+- https://data-flair.training/forums/topic/what-is-the-difference-between-schema-on-read-and-schema-on-write/
+
+Schema on Read
+- Schema on Read는 쉽게 말해  데이터의 Schema 확인을 Data를 읽는 시점에서 한다는 뜻
+
+Schema on write
+- Schema on write is defined as creating a schema for data before writing into the database.
+
+
+![alt text](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile1.uf.tistory.com%2Fimage%2F992E95375A3149100B7887)
+
+```
+Schema on read Vs Schema on write.
+
+In traditional way(RDBMS), Before storing data, a schema is created for a data before it is written into the database. So suppose we create a Schema consisting of 10 Columns and we try to load data which could satisfy only 9 columns that data would be rejected because of Schema on write, here the data is read against schema before it is written to the database.
+The main advantages of RDBMS are that its Query response time is immediate and precision.
+
+With HIVE, we have Schema on read, which means the data is not verified before loading but rather when a query is issued, here we have very fast initial load as the data is not read.
+```
+
+### 분석 파이프라인 생성
+
+데이터를 분석하려면?
+- 데이터를 수집, 처리 및 저장을 우선 해야함
+- 이를 소스 시스템에서 데이터를 추출하고 데이터를 처리한 다음 데이터를 분석할 수 있는 데이터 스토어에 로드하는 분석 파이프라인으로 생각
+- 분석 파이프라인은 데이터베이스, 애플리케이션 및 디바이스와 같은 이기종 소스에서 들어오는 대량의 데이터를 처리하도록 설계
+
+일반적인 순서
+- 수집 -> 처리 -> 저장 -> 데이터 분석 및 시각화 -> 미래 결과 예측
+
+#### 데이터 수집
+- 트랜잭션 데이터, 로그 데이터, 스트리밍 데이터 등 다양한 유형의 데이터를 고려
+
+트랜잭션 데이터
+
+로그 데이터
+
+스트리밍 데이터
+
+
+#### 데이터 처리
+
+
+
+#### 데이터 저장
+
+
+
+#### 데이터 분석
