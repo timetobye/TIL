@@ -295,15 +295,131 @@ from unnest(
 select safe.log(10, -3)
 ```
 
+## 비교 연산자, 논리 연산
+다른 RDBMS랑 유사함
+- NaN과 비교는 false 반환
+- Null 과의 비교는 Null을 반환
+- [표준 SQL 연산자](https://cloud.google.com/bigquery/docs/reference/standard-sql/operators)
+
+## NUMERIC을 사용한 정밀 계산
+한계점 : 64비트 영역의 컴퓨터 메모리에 2진수 형태로 저장되는 INT64, FLOAT64는 값의 범위에 제한 존재 -> 사실 거의 문제 없음
+재무 회계 프로그램에서는 종종 필요
+
+NUMERIC : 데이터 타입은 38자리 숫자 제공 / 숫자중 9자리는 소수점 아래의 숫자 표시 / 문자열 형태로 지정 직접 Bigquery에서 추출 해야함
+- string 으로 된 숫자를 처리함
+
+```sql
+WITH example AS (
+  SELECT NUMERIC '1.23' AS payment UNION ALL SELECT NUMERIC '7.89'
+  UNION ALL SELECT NUMERIC '12.43'
+)
+SELECT SUM(payment) AS total_paid, AVG(payment) AS average_paid
+FROM example
+```
+
+## 조건식
+- IF, COALESCE, IFNULL
+- COALESCE 의 경우 NULL이 아닌 값을 얻을 떄까찌 표현식을 계속 평가하여 처리
+
+```sql
+-- COALESCE example
+
+SELECT COALESCE('A', 'B', 'C') as result -> A 가 null이 아니므로 종료
+
+SELECT COALESCE(NULL, 'B', 'C') as result -> NULL 확인 후 B 가 NULL이 아니므로 종료
+```
+
+## 타입 변환
+Cast 함수를 이용하여 처리
+- 실패하면 오류 반환
+- 오류 발생 안 시키려면 safe_cast를 사용하여 NULL 반환
+
+## COUNTIF
+COUNTIF 는 값을 집계하기 위해 사용함
+
+```sql
+COUNTIF(expression)  [OVER (...)]
+
+SELECT COUNTIF(x<0) AS num_negative, COUNTIF(x>0) AS num_positive
+FROM UNNEST([5, -2, 3, 6, -10, -7, 4, 0]) AS x;
+
++--------------+--------------+
+| num_negative | num_positive |
++--------------+--------------+
+| 3            | 4            |
++--------------+--------------+
 
 
+SELECT
+  x,
+  COUNTIF(x<0) OVER (ORDER BY ABS(x) ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING) AS num_negative
+FROM UNNEST([5, -2, 3, 6, -10, NULL, -7, 4, 0]) AS x;
+
++------+--------------+
+| x    | num_negative |
++------+--------------+
+| NULL | 0            |
+| 0    | 1            |
+| -2   | 1            |
+| 3    | 1            |
+| 4    | 0            |
+| 5    | 0            |
+| 6    | 1            |
+| -7   | 2            |
+| -10  | 2            |
++------+--------------+
+```
+
+### 문자열 함수, 정규표현식
+[문자열 함수](https://cloud.google.com/bigquery/docs/reference/standard-sql/string_functions)는 다양해서 공식 문서에서 필요할 때마다 참고
 
 
+## 타임스탬프 다루기, 파싱과 형식화, 타임스탬프 연
+타임스탬프 : 위치와 관계없이 절대 시점의 시각을 나타냄
+- ISO 8601 참고
 
 
+```sql
+select t1, t2, timestamp_diff(t1, t2, microsecond) t_diff
+from (
+  select
+    timestamp "2017-09-27 12:30:00.45" as t1,
+    timestamp "2017-09-27 13:30:00.45+1" as t2)
+```
+
+|Row                   |t1        |t2       |t_diff|
+|----------------------|----------|---------|------|
+|1                     |2017-09-27 12:30:00.450 UTC|2017-09-27 12:30:00.450 UTC|0     |
 
 
+다양한 형태로 시간 표현을 하지만 표준 표현을 가급적 사용하자
+- 표준 형식이 아닌 문자열은 [PARSE_TIMESTAMP](https://cloud.google.com/bigquery/docs/reference/standard-sql/timestamp_functions#parse_timestamp)로 처리 가능
+- [FORMAT_TIMESTAMP](https://cloud.google.com/bigquery/docs/reference/standard-sql/timestamp_functions#format_timestamp)를 사용하면 원하는 형식으로 타임스탬프 출력 가
+- 달력 정보는 EXTRACT 함수 등을 이용하면 추출 가
 
+타임스탬프 연산
+- TIMESTAMP_ADD
+```sql
+TIMESTAMP_ADD(timestamp_expression, INTERVAL int64_expression date_part)
+```
+
+- TIMESTAMP_SUB
+```sql
+TIMESTAMP_SUB(timestamp_expression, INTERVAL int64_expression date_part)
+```
+- TIMESTAMP_DIFF
+```sql
+TIMESTAMP_DIFF(timestamp_expression_a, timestamp_expression_b, date_part)
+```
+
+```sql
+select
+  extract(time from timestamp_add(t1, interval 1 hour)) plus_1h,
+  extract(time from timestamp_sub(t1, interval 10 minute)) as minus_10min,
+  timestamp_diff(current_timestamp(), timestamp_sub(current_timestamp(), interval 1 minute), second) as plus_1min,
+  timestamp_diff(current_timestamp(), timestamp_add(current_timestamp(), interval 1 minute), second) as minus_1min
+from (select timestamp "2017-09-27 12:30:00.45" as t1)
+```
 
 
 
