@@ -2,17 +2,6 @@ import csv
 from datetime import datetime
 from datetime import timedelta
 
-# print(datetime.today())
-# print(type(datetime.today()))
-# print(datetime(2012, 3, 23, 23, 24, 55, 173504))
-# print(datetime.today().weekday())
-#
-# 0, 1, 2, 3, 4, 5, 6
-print(datetime.strptime("2020/12/21", "%Y/%m/%d").weekday())
-print(datetime.strptime("2020/12/22", "%Y/%m/%d").weekday())
-print(datetime.strptime("2020/12/23", "%Y/%m/%d").weekday())
-print(datetime.strptime("2020/12/23", "%Y/%m/%d") + timedelta(days=1))
-
 
 def get_weekday_number(string_date):
     weekday_number = datetime.strptime(string_date,"%Y/%m/%d").weekday()
@@ -34,6 +23,7 @@ def get_date_list():
     date_list = []
     kospi_start_date = "1980/01/04"
     current_date = datetime.strftime(datetime.now(), "%Y/%m/%d")
+    end_date = "2018/11/09"
 
     number = 0
     while True:
@@ -43,38 +33,35 @@ def get_date_list():
         date_list.append(result_date)
         number += 1
 
-        if current_date == result_date:
+        if end_date == result_date:
             break
 
     return date_list
 
 
-
 with open("kospi_history_1980_2018.csv", "r", encoding="cp949") as read_file, \
         open("new_kospi_history_1980_2018.csv", "w", encoding="utf-8") as write_file:
-    csv_file_read_lines = csv.reader(read_file)
-    next(csv_file_read_lines)
-    writer = csv.writer(write_file)
-
+    csv_file_reader = csv.reader(read_file)
+    csv_file_writer = csv.writer(write_file)
     kospi_date_list = get_date_list()
 
-    count = 1
+    csv_file_dict = {}
+    for idx, component_list in enumerate(csv_file_reader):
+        if idx == 0:
+            csv_file_writer.writerow(component_list)
+            continue
 
-    new_kospi_data = []
-    for line, kospi_date in zip(csv_file_read_lines, kospi_date_list):
+        if component_list[0] not in csv_file_dict:
+            csv_file_dict[component_list[0]] = component_list[1:]
 
-        print(line, kospi_date)
+    # print(csv_file_dict)
 
-        if line[0] == kospi_date:
-            writer.writerow(line)
+    empty_string_list = ['' for _ in range(12)]
+    for kospi_date in kospi_date_list:
+        if csv_file_dict.get(kospi_date, None):
+            component_list = [kospi_date] + csv_file_dict[kospi_date]
+            csv_file_writer.writerow(component_list)
+
         else:
-            temp_list = ['' for _ in range(12)]
-            temp_list.insert(0, kospi_date)
-            writer.writerow(temp_list)
-            writer.writerow(line)
-
-
-        if count == 10:
-            break
-
-        count += 1
+            component_list = [kospi_date] + empty_string_list
+            csv_file_writer.writerow(component_list)
