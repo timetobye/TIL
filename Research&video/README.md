@@ -20,6 +20,13 @@ Research & Video
 |2020-03-19|[Ask Me Anything session with a Kaggle Grandmaster Vladimir I. Iglovikov](https://towardsdatascience.com/ask-me-anything-session-with-a-kaggle-grandmaster-vladimir-i-iglovikov-942ad6a06acd)|캐글 그랜드마스터의 위엄과 인터뷰|올해는 캐글을 하기로 했으니 정말 열심히 한 번 |
 |2020-03-26|[REST API 제대로 알고 사용하기](https://meetup.toast.com/posts/92)|REST API 제대로 알고 사용하기|공부하다가 찾아봄...설명을 너무 잘하셨다.|
 |2020-05-06|[Business metrics vs KPIs. What’s the difference?](https://www.klipfolio.com/blog/business-metrics-vs-kpis)|KPI와 metrics에 대해서 찾아봄|두 개의 개념이 비슷하면서도 어떤 차이가 있는지 몰라서 찾아보았다|
+|2021-01-21|[건강하게 성장하는 회사를 이끄는 리더를 위한 1:1 미팅 가이드 (VP, C-level)](https://www.notion.so/1-1-VP-C-level-012279a817af448a95d9206a525d83fb)|1대1 미팅|아직 시니어 레벨은 아니지만 1대1 미팅을 하면서 더 의미있게 할 수 있도록 자료를 찾아봄|
+
+
+
+
+
+
 
 
 
