@@ -16,7 +16,8 @@ Metabase
 
 ## 설치 과정
 
-## 1. docker run 
+**1. docker run**
+ 
 아래 docker run 명령어를 이용하여 설치를 진행한다.
 
 ```bash
@@ -41,22 +42,31 @@ docker run -d -p 12345:3000 --name metabase metabase/metabase
 ```
 
 
-## 2. 설치 확인
+**2. 설치 확인**
+
 위의 명령어 실행 후 docker ps 명령어를 이용하여 container가 실행되는지 확인한다. 
 
 ```bash
 docker ps
 ```
 
-## 3. 접속
+**3. 접속**
+
 container 가 정상적으로 실행되고 있음을 확인했다면 사용하고 있는 브라우저에서 localhost:3000으로 접속한다.
 
 ```bash
 http://localhost:3000/
 ```
 
-## 4. 실행
-위 링크로 접속을 하게 되면 메타베이스가 initialize 되면서 접속 계정 설정을 하게 된다. 
+**4. 실행**
+
+위 링크로 접속을 하게 되면 메타베이스가 initialize 되면서 접속 계정 설정을 하게 된다.
+
+
+**참고 문서**
+- [Running Metabase on Docker](https://www.metabase.com/docs/latest/operations-guide/running-metabase-on-docker.html)
+
+ 
 
 # Update
 
@@ -86,3 +96,7 @@ docker cp -a local_path/metabase.db/. new_docker_container_id:metabase.db/
 ```
 
 접속 후 정상적으로 db 파일이 올라갔는지 확인한다. metabase에 접속하면 된다.
+
+
+**참고 문서**
+- [Upgrading Metabase](https://www.metabase.com/docs/latest/operations-guide/upgrading-metabase.html)
