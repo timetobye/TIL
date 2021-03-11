@@ -21,6 +21,10 @@ Research & Video
 |2020-03-26|[REST API 제대로 알고 사용하기](https://meetup.toast.com/posts/92)|REST API 제대로 알고 사용하기|공부하다가 찾아봄...설명을 너무 잘하셨다.|
 |2020-05-06|[Business metrics vs KPIs. What’s the difference?](https://www.klipfolio.com/blog/business-metrics-vs-kpis)|KPI와 metrics에 대해서 찾아봄|두 개의 개념이 비슷하면서도 어떤 차이가 있는지 몰라서 찾아보았다|
 |2021-01-21|[건강하게 성장하는 회사를 이끄는 리더를 위한 1:1 미팅 가이드 (VP, C-level)](https://www.notion.so/1-1-VP-C-level-012279a817af448a95d9206a525d83fb)|1대1 미팅|아직 시니어 레벨은 아니지만 1대1 미팅을 하면서 더 의미있게 할 수 있도록 자료를 찾아봄|
+|2021-03-11|[data-science-vs-decision-science](https://towardsdatascience.com/data-science-vs-decision-science-8f8d53ce25da)|data-science-vs-decision-science|data-science-vs-decision-science의 개념을 알게된지 몇 달 되었는데 알려주신 분께 감사|
+|2021-03-11|[이경진 님 - 분석과 커뮤니케이션의 시행착오를 줄이는 데이터 문화 만들기 in 글램, 큐피스트](https://www.youtube.com/watch?v=xf7bFUlzghA)|데이터 문화 만들기|언제쯤 이런 수준이 될 수 있을까, 많이 배우는 수밖에|
+|2021-03-11|[양승화 님 - 가장 중요한 한 가지 지표, OMTM](https://brunch.co.kr/@leoyang99/1)|최근에 알게된 단어 OMTM에 대한 소개|OMTM을 만들고 있는데 야구-세이버에서 WAR같다는 느낌을 받았다.|
+|2021-03-11|[최신 데이터 인프라 이해하기](https://www.youtube.com/playlist?list=PLL-_zEJctPoJ92HmbGxFv1Pv_ugsggGD2)|GeekNews에서 만든 최신 데이터 인프라 동향|이런 자료는 항상 무한한 감사|
 
 
 
