@@ -25,6 +25,7 @@ Research & Video
 |2021-03-11|[이경진 님 - 분석과 커뮤니케이션의 시행착오를 줄이는 데이터 문화 만들기 in 글램, 큐피스트](https://www.youtube.com/watch?v=xf7bFUlzghA)|데이터 문화 만들기|언제쯤 이런 수준이 될 수 있을까, 많이 배우는 수밖에|
 |2021-03-11|[양승화 님 - 가장 중요한 한 가지 지표, OMTM](https://brunch.co.kr/@leoyang99/1)|최근에 알게된 단어 OMTM에 대한 소개|OMTM을 만들고 있는데 야구-세이버에서 WAR같다는 느낌을 받았다.|
 |2021-03-11|[최신 데이터 인프라 이해하기](https://www.youtube.com/playlist?list=PLL-_zEJctPoJ92HmbGxFv1Pv_ugsggGD2)|GeekNews에서 만든 최신 데이터 인프라 동향|이런 자료는 항상 무한한 감사|
+|2021-05-26|[고객 생애 가치(Customer Lifetime Value) 이해하기](https://sungmooncho.com/2011/11/21/customer-lifetime-value/)|LTV 자료를 찾아보면서 읽은 자료|블로그를 보니 좋은 글들이 무척 많았다.|
 
 
 
