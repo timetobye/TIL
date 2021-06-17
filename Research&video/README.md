@@ -26,6 +26,8 @@ Research & Video
 |2021-03-11|[양승화 님 - 가장 중요한 한 가지 지표, OMTM](https://brunch.co.kr/@leoyang99/1)|최근에 알게된 단어 OMTM에 대한 소개|OMTM을 만들고 있는데 야구-세이버에서 WAR같다는 느낌을 받았다.|
 |2021-03-11|[최신 데이터 인프라 이해하기](https://www.youtube.com/playlist?list=PLL-_zEJctPoJ92HmbGxFv1Pv_ugsggGD2)|GeekNews에서 만든 최신 데이터 인프라 동향|이런 자료는 항상 무한한 감사|
 |2021-05-26|[고객 생애 가치(Customer Lifetime Value) 이해하기](https://sungmooncho.com/2011/11/21/customer-lifetime-value/)|LTV 자료를 찾아보면서 읽은 자료|블로그를 보니 좋은 글들이 무척 많았다.|
+|2021-06-16|[[NDC21-데이터분석] 추천알고리즘 Offline A/B 테스트 (feat. PAIGE 프로야구 서비스)](https://www.youtube.com/watch?v=U2v2rVb_6oo)|추천 시스템 평가 방법|어려운 부분이 있긴 하지만 필요해 보인다.|
+
 
 
 
